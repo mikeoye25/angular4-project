@@ -1,0 +1,42 @@
+[
+    {
+        "productId": 1,
+        "productName": "Chair",
+        "productCode": "GDN-0011",
+        "releaseDate": "March 19, 2016",
+        "description": "Chair description",
+        "price": 19.95,
+        "starRating": 3.2,
+        "imageUrl": "/assets/images/A-chair.jpg"
+    },
+    {
+        "productId": 2,
+        "productName": "iPhone",
+        "productCode": "GDN-0023",
+        "releaseDate": "March 18, 2016",
+        "description": "iPhone description",
+        "price": 32.99,
+        "starRating": 4.2,
+        "imageUrl": "/assets/images/iPhone.jpg"
+    },
+    {
+        "productId": 8,
+        "productName": "Slippers",
+        "productCode": "TBX-0022",
+        "releaseDate": "May 15, 2016",
+        "description": "Slippers description",
+        "price": 11.55,
+        "starRating": 3.7,
+        "imageUrl": "/assets/images/Slippers.jpg"
+    },
+    {
+        "productId": 10,
+        "productName": "Television",
+        "productCode": "GMG-0042",
+        "releaseDate": "October 15, 2015",
+        "description": "Television description",
+        "price": 35.95,
+        "starRating": 4.6,
+        "imageUrl": "/assets/images/Television.jpg"
+    }
+]

@@ -1,0 +1,62 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        {{pageTitle}}
+    </div>
+
+    <!-- Filter the Products   -->
+    <!--<div class='panel-body'>
+            <ul class="list-group">
+      <a
+        class="list-group-item"
+        style="cursor: pointer"
+        *ngFor="let ingredient of ingredients"
+      >
+        {{ ingredient.name }} ({{ ingredient.amount }})
+      </a>
+    </ul>
+
+    <ul class="list-group">
+      <a
+        [routerLink]="['/product', product.productId]"
+        class="list-group-item"
+        style="cursor: pointer"
+        *ngFor="let product of products"
+      >
+        {{ product.productName }} ({{ product.productCode }})
+      </a>
+    </ul>
+        </div>-->
+
+        <div class='table-responsive'>
+            <table class='table'
+                   *ngIf='products && products.length'>
+                <thead>
+                    <tr>
+                        <th>
+                            
+                        </th>
+                        <th>Product</th>
+                        <th>Code</th>
+                        <th>Available</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let product of products'>
+                        <td>
+                            
+                        </td>
+                        <td><a [routerLink]="['/product', product.productId]" class="link-color">
+                            {{product.productName}}
+                            </a>
+                        </td>
+                        <td>{{ product.productCode }}</td>
+                        <td>{{ product.releaseDate }}</td>
+                        <td>{{ product.price }}</td>
+                        <td>
+                       </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</div>
